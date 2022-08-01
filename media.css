@@ -1,0 +1,132 @@
+/*mobile*/
+@media screen and (max-width: 1000px) {
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+     .card {
+        display: none;
+    }
+   
+
+    body {
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .card-two {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin: 15px;
+    }
+
+    .flex-container-two {
+        width: 330px;
+        height : 620px;
+        border-radius: 10px;
+        background-color: white;
+        /* margin: auto; */
+        display: grid;
+         /* max-width: 700px;  */
+         /* box-shadow: 0 0 10px black; */
+     
+       }
+
+    .product-image-two {
+        width: 100%;
+    }
+
+    .product-image-two img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .product-details-two {
+        width: 90%;
+        height: 60vh;
+        margin: 0 auto;
+        margin-top: 1em;
+       
+        /* padding: 20px; */
+  
+    }
+
+    .product-details-two h1 {
+        font-family: Montserrat;
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 0.25rem;
+        /* padding: 5px; */
+        font-weight: normal;
+    }
+
+    .product-details-two h2 {
+        font-family: Fraunces;
+        font-size: 2rem;
+        color: hsl(212, 21%, 14%);
+       margin-top: 1rem;
+       line-height: 2.5rem;
+       /* padding: 5px; */
+    }
+
+    .product-details-two p {
+        font-family: Montserrat;
+        font-size: 1.05rem;
+        margin-top: 1rem;
+        line-height: 1.7rem;
+        color: hsl(228, 12%, 48%);
+        /* padding: 5px; */
+        text-align: left;
+    }
+
+    .price-two h3 {
+        font-family: Fraunces;
+        color : hsl(158, 36%, 37%);
+        font-size: 1.8rem;
+        width:fit-content;
+        margin-top: 1rem;
+        float: left;
+    }
+    
+    .price-two h4 {
+        font-family: Montserrat;
+        text-decoration: line-through;
+        color: hsl(228, 12%, 48%);
+        position: relative;
+        top: 26px;
+        left: 30px;
+        font-weight: normal;
+    font-size: 13px;
+    }
+    
+    .button-two {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+    }
+    
+    .button-two button {
+        width: 100%;
+        height: 3rem;
+        margin-top: 1rem;
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        font-weight: 700;
+        font-family: Montserrat;
+    }
+  
+}
+
+/*Desktop*/
+  @media screen and (min-width: 1000px) {
+    .card-two {
+        display: none;
+    }
+} 
